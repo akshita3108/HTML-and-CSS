@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Formatting Tags Demo</title>
+</head>
+<body>
+    <h1>Text Formatting Tags Demonstration</h1>
+
+    <p><b>This is <pre>bold </pre> text.</b></p>
+    <p><i>This is italic text.</i></p>
+    <p><u>This is underlined text.</u></p>
+    <p>H<sub>2</sub>O is the chemical formula for water. (Subscript)</p>
+    <p>E = mc<sup>2</sup> is Einstein's mass-energy equivalence. (Superscript)</p>
+    <p>This text has been <del>deleted</del>. (Strikethrough)</p>
+    <p>This text has been <ins>inserted</ins>. (Inserted text)</p>
+
+    <p><mark>This text is highlighted.</mark> (Marked text)</p>
+
+    <p><kbd>Ctrl + C</kbd> is the keyboard shortcut for copy. (Keyboard input)</p>
+
+    <p>The <dfn>HTML</dfn> stands for HyperText Markup Language. (Definition term)</p>
+
+    <p><code>&lt;p&gt;</code> is an HTML tag for a paragraph. (Code snippet)</p>
+
+    <p><q>This is a short inline quotation.</q> (Inline quote)</p>
+
+    <blockquote>
+        This is a block quotation. It is used for longer quotations or citations that require more prominence.
+    </blockquote>
+
+    <pre>
+        This is preformatted text.
+        It preserves whitespace
+        and displays text in a fixed-width font.
+    </pre>
+</body>
+</html>
