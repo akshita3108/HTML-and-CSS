@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Centered Clickable Image</title>
+</head>
+<body>
+
+ <center>
+		<a href="https://www.example.com">
+                    <img src="p1.PNG" alt="Clickable Image" width="500" height="300">
+
+</center>
+
+</body>
+</html>
