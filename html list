@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>An unordered HTML list</h2>
+
+<ul>
+  <li>Maharastra</li>
+	<ul>
+		<li>Pune</li>
+		 	<ol type=I>
+				<li>Dighi</li>
+				<li>Moshi</li>
+				<li>Shivajinagar</li>
+			</ol>
+		<li>Mumbai</li>
+			<ol type=I>
+				<li>Santakruis</li>
+				<li>Vikroli</li>
+				<li>mubra</li>
+			</ol>
+
+	</ul>
+</ul>  
+
+</body>
+</html>
+
