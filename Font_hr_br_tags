@@ -1,0 +1,10 @@
+<html>
+<head>
+	<title>my page</title>
+</head>
+<body bgcolor='yellow'>
+ My personal information <hr>
+		<font size=5 color='red'>Name: akshita patel</font> <br>
+		<font size=5 color='red'>branch: Computer Engineering</font>
+</body>
+</html>
