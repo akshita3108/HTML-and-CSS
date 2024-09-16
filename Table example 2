@@ -1,0 +1,47 @@
+New! Keyboard shortcuts … Drive keyboard shortcuts have been updated to give you first-letters navigation
+<html>
+<head>
+	<title>table</title>
+</head>
+<body>
+	
+	<table border='1' width='300' height='200'>
+	<tr>
+		<td rowspan='2'>a</td>
+		<td>b</td>
+		<td rowspan='3'>d</td>
+		<td colspan='3'>e</td>
+		<td>f</td>
+	</tr>
+	<tr>
+		<td>c</td>
+		<td rowspan='2'>g</td>
+		<td rowspan='2'>h</td>
+		<td>i</td>
+		<td>o</td>
+		
+	</tr>
+	<tr>
+		<td colspan='2'>j</td>
+		<td colspan='2'>p</td>
+		
+		
+	</tr>
+	
+	<tr>
+		<td colspan='7'><center>n</center></td>
+		
+	</tr>
+	
+	
+	<tr>
+		<td colspan='3'>k</td>
+		<td>l</td>
+		<td colspan='3'>m</td>
+		
+	</tr>
+	
+	</table>
+	
+</body>
+</html>
