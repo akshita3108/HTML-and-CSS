@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Marquee Tag</title>
+    
+</head>
+
+<body>
+    <div>
+        <marquee bgcolor="yellow" direction="up" scrollamount="1">
+            <font color="green">
+                Breaking News
+            </font>
+           </marquee>
+    </div>
+<br>
+<div>
+        <marquee bgcolor="grey" direction="left" scrollamount="5">
+            <font color="red">
+                Breaking News
+            </font>
+
+           </marquee>
+    </div>
+<br>
+<div>
+        <marquee bgcolor="blue" direction="right" height="20%" scrollamount="10">
+            <font color="yellow">
+                Breaking News
+            </font>
+
+           </marquee>
+    </div>
+<br>
+<br>
+<div>
+        <marquee bgcolor="black" direction="down" height="20%" scrollamount="2">
+            <font color="white">
+                Breaking News
+            </font>
+           </marquee>
+    </div>
+
+</body>
+
+</html>
