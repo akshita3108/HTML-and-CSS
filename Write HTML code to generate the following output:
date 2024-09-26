@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+    <form style="border:black; border-width:3px; border-style:outset;">
+        <label for="name">Enter Name of your friend: </label>
+        <input type="text" id="name" name="friend_name">
+        <br><br>
+
+        <label for="file">Choose the file you want to post to your friend: </label>
+        <input type="file" id="file" name="file">
+        <br><br>
+
+        <label>What does the file contain?</label>
+        <br>
+        <input type="checkbox" id="image" name="content" value="image" checked>
+        <label for="image">Image</label>
+        <input type="checkbox" id="source_code" name="content" value="source_code" checked>
+        <label for="source_code">Source code</label>
+        <input type="checkbox" id="binary_code" name="content" value="binary_code">
+        <label for="binary_code">Binary code</label>
+        <br><br>
+
+        <p>You have Completed the Form.</p>
+        <input type="submit" value="Submit Query">
+    </form>
+</body>
+</html>
