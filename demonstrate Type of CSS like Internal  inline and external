@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Demonstration</title>
+    
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal CSS -->
+    <style>
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+        .internal-style {
+            color: green;
+            font-size: 20px;
+            margin: 20px;
+            padding: 10px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Inline CSS -->
+    <h1 style="background-color: yellow;">This is a Heading with Inline CSS</h1>
+
+    <!-- Internal CSS -->
+    <p class="internal-style">This paragraph is styled using internal CSS.</p>
+
+    <!-- External CSS -->
+    <p class="external-style">This paragraph is styled using external CSS.</p>
+
+</body>
+</html>
+
+.....................................................................................................................................................
+
+creat a another styles.css page for external CSS 
+
+/* External CSS */
+.external-style {
+    color: red;
+    font-size: 18px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px dashed black;
+}
