@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Repeat Example</title>
+
+    <style>
+        /* Apply background image with background-repeat */
+        body {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5SrIBGVwPaj6Mm9tB85EwV-eEqpgg-1Br1w&s"); /* Change to your image path */
+            background-repeat: repeat-x; 
+      		 background-repeat: repeat-y;
+       		background-repeat: no-repeat;
+      		 background-repeat: round ;
+            background-position: top; /* Align image at the top */
+            background-color: #f2f2f2; /* Fallback color */
+            height: 100vh; /* Full viewport height */
+            margin: 0;
+        }
+
+        /* Adding some content to see the effect */
+        .content {
+            text-align: center;
+            padding: 50px;
+            font-size: 24px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h1>Background Repeat Example</h1>
+        <p>This is an example of using the <code>background-repeat</code> property in CSS.</p>
+    </div>
+
+</body>
+</html>
