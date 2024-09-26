@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Background Image Example</title>
+<style>
+  body {
+    /* Set the background image for the body element */
+    background-image: url("https://bocdn.ecotree.green/blog/0001/01/ad46dbb447cd0e9a6aeecd64cc2bd332b0cbcb79.jpeg?d=960x540"); /* Replace "img_tree.png" with the actual path to your image */
+    background-size: cover; /* Cover the entire area of the body */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+  }
+</style>
+</head>
+<body>
+<!-- The body of your page will display the background image -->
+</body>
+</html>
