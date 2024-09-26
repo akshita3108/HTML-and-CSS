@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>iFrame Example</title>
+</head>
+<body>
+    <h2>iFrame Example</h2>
+    <iframe src="https://uvpce.guni.ac.in/" width="600" height="400" align= "left">
+        Your browser does not support iframes.
+    </iframe>
+</body>
+</html>
