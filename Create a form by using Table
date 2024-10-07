@@ -1,0 +1,56 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+  <h1 align='center'>Registration form</h1>
+  <table bgcolor='gray' align='center'>
+  
+    <tr>
+      <td>
+        <label for="fname">First name:</label>
+
+      </td>
+      <td>
+        <input type="text" id="fname" name="fname" />
+      </td>
+  <tr>
+      <td>
+        <label for="fname">First name:</label>
+
+      </td>
+      <td>
+        <input type="text" id="fname" name="fname" />
+      </td>
+    </tr>
+     <td>
+        <label for="fname">Email:</label>
+
+      </td>
+      <td>
+        <input type="email" id="fname" name="fname" />
+      </td>
+    </tr>
+	<td>
+        <label for="fname">Mobile No:</label>
+
+      </td>
+      <td>
+        <input type="email" id="fname" name="fname" />
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+   <tr>
+     <td> <button> sumbmit</button></td>
+  </tr>
+    
+    </table>
+ 
+</body>
+
+</html>
