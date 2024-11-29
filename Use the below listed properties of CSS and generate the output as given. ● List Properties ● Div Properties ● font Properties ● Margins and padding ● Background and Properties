@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite Pizzas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">Favourite Pizzas</div>
+        <div class="content">
+            <div class="menu">
+                <div class="section">
+                    <h2 class="section-title">simply veg</h2>
+                    <ul class="items">
+                        <li>Garden Delight - Onion • Tomatoes • Capsicum</li>
+                        <li>Sweet Decade - Sweet Corn • Pineapple • Capsicum</li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h2 class="section-title">premium veg</h2>
+                    <ul class="items">
+                        <li>Cheesy-7 - White Mozzarella • Cream White Cheese • Cream Orange Cheese</li>
+                        <li>Garden Special - Onion • Fresh Tomatoes • Capsicum • Mushroom</li>
+                        <li>Paneer Tikka Butter Masala - Exotic Paneer Tikka • Onion • Capsicum • Red Paprika</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="image">
+                <img src="pizza.jpg" alt="Pizza">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+//css file
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    border: 2px solid red;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #fff;
+}
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: purple;
+    border-bottom: 2px solid blue;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.items {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.items li {
+    margin-bottom: 10px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    max-width: 100%;
+    border: 2px solid green;
+    border-radius: 5px;
+}
