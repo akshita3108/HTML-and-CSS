@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS List with Image Markers</title>
+  <style>
+    /* General body styling */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+      background-color: #f9f9f9;
+    }
+
+    .container {
+      border: 2px solid red;
+      padding: 10px;
+      display: inline-block;
+      background-color: white;
+    }
+
+    h1 {
+      font-size: 20px;
+      color: black;
+      margin-bottom: 10px;
+    }
+
+    /* Styling for unordered list */
+    .custom-list {
+      list-style-type: none; /* Remove default markers */
+      padding: 10px;
+      background-color: orange;
+      text-align: left;
+      margin: 0;
+    }
+
+    .custom-list li {
+      display: flex;
+      align-items: center;
+      margin: 5px 0;
+      padding: 5px;
+    }
+
+    .custom-list li::before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      background-image: url('https://via.placeholder.com/20'); /* Replace with your desired image */
+      background-size: cover;
+      margin-right: 10px;
+    }
+
+    /* Styling for ordered list */
+    .numbered-list {
+      padding: 10px;
+      background-color: orange;
+      margin-top: 10px;
+      text-align: left;
+    }
+
+    /* Add background for better contrast */
+    .blue-bar {
+      background-color: blue;
+      height: 100%;
+      width: 10px;
+      margin-right: 5px;
+    }
+
+    .list-wrapper {
+      display: flex;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Styling Lists with Images and Colors</h1>
+
+    <!-- Unordered List -->
+    <div class="list-wrapper">
+      <div class="blue-bar"></div>
+      <ul class="custom-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>CSS Framework - Bootstrap</li>
+        <li>PHP</li>
+        <li>MySql</li>
+      </ul>
+    </div>
+
+    <!-- Ordered List -->
+    <ol class="numbered-list">
+      <li>HTML</li>
+      <
