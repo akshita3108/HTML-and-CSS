@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styling Lists</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Styling Lists With Colors</h1>
+    
+    <!-- Ordered List -->
+    <ol class="styled-list red-background">
+      <li>Ganpat University - Computer Engineering</li>
+      <li>Ganpat University - Information Technology</li>
+      <li>Ganpat University - Computer Engineering - AI</li>
+    </ol>
+    
+    <!-- Unordered List -->
+    <ul class="styled-list blue-background">
+      <li>Ganpat University - Computer Engineering</li>
+      <li>Ganpat University - Information Technology</li>
+      <li>Ganpat University - Computer Engineering - AI</li>
+    </ul>
+  </div>
+</body>
+</html>
+.................................................CSS File.................................................................
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+.container {
+  border: 2px solid red;
+  padding: 20px;
+  display: inline-block;
+  background-color: white;
+}
+
+h1 {
+  font-size: 24px;
+  color: black;
+}
+
+.styled-list {
+  padding: 10px;
+  margin: 10px 0;
+  list-style-position: inside;
+  width: 80%;
+  margin: auto;
+}
+
+.red-background {
+  background-color: #ffcccc; /* Light red */
+  border: 2px solid #ff9999;
+}
+
+.blue-background {
+  background-color: #cce5ff; /* Light blue */
+  border: 2px solid #99ccff;
+}
+
+.styled-list li {
+  margin: 5px 0;
+  padding: 5px;
+}
