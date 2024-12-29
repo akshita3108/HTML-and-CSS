@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Table with Advanced Properties</title>
+  <style>
+    /* General body styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+
+    /* Table container styling */
+    .table-container {
+      margin: auto;
+      width: 80%;
+      border: 2px solid #333;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: #fff;
+    }
+
+    /* Table styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+
+    /* Table caption styling */
+    caption {
+      caption-side: top; /* Caption on top of the table */
+      font-size: 20px;
+      font-weight: bold;
+      color: #444;
+      margin-bottom: 10px;
+    }
+
+    /* Table header styling */
+    th {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+
+    /* Table row styling */
+    td {
+      text-align: center;
+      padding: 8px;
+      border: 1px solid #ddd;
+    }
+
+    /* Pseudo-class for odd rows */
+    tr:nth-child(odd) {
+      background-color: #f2f2f2;
+    }
+
+    /* Pseudo-class for even rows */
+    tr:nth-child(even) {
+      background-color: #e6f7ff;
+    }
+
+    /* Hover effect */
+    tr:hover {
+      background-color: #d0e7ff;
+      cursor: pointer;
+    }
+
+    /* Add margin and padding to the section below the table */
+    .footer {
+      margin-top: 20px;
+      padding: 10px;
+      font-size: 18px;
+      color: #555;
+    }
+
+    /* Style for links inside the footer */
+    .footer a {
+      text-decoration: none;
+      color: #007BFF;
+    }
+
+    /* Pseudo-class for links hover */
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="table-container">
+    <table>
+      <caption>Student Grades Table</caption>
+      <thead>
+        <tr>
+          <th>Student Name</th>
+          <th>Subject</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>Math</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>Science</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>Emily Johnson</td>
+          <td>History</td>
+          <td>A+</td>
+        </tr>
+        <tr>
+          <td>Michael Brown</td>
+          <td>English</td>
+          <td>B+</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="footer">
+    <p>Learn more about CSS: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS Documentation</a></p>
+  </div>
+</body>
+</html>
